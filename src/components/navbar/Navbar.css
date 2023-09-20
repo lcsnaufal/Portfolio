@@ -1,0 +1,58 @@
+body {
+    background-image: url("../../image/backgroundimg.webp");
+}
+
+
+.navbar {
+
+    /* background-color: #1d1d20; */
+    display:flex;
+    justify-content: space-between;
+    padding: 2vh;
+}
+
+.name {
+   
+    height: 40px;
+    width: 40px;
+    margin: 0 0 0 50px;
+    
+}
+
+.images {
+    height: 25px;
+    padding: 2vw;
+}
+
+@media (min-width: 601px){
+
+    body {
+        background-image: url("../../image/backgroundimg.webp");
+    }
+    
+    
+    .navbar {
+    
+        /* background-color: #1d1d20; */
+        display:flex;
+        justify-content: space-between;
+        padding: 2vh;
+    }
+    
+    .name {
+       
+        height: 10vw;
+        width: 10vw;
+        margin: 0 0 0 10vw;
+        padding: 2vw
+        
+    }
+    
+    .images {
+        height: 20px;
+        margin: 2vh 2vw 0 0;
+        
+    }
+    
+
+}
