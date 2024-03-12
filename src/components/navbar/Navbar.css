@@ -1,0 +1,26 @@
+.divFather {
+    display: flex;
+    padding-top: 70px;
+    justify-content: space-between;
+}
+
+.lucas{
+    font-size: 20px;
+}
+
+.portfolio{
+    font-size: 50px;
+}
+
+.links{
+    display: flex;
+}
+
+.icons{
+    margin-left: 40px;
+}
+
+.a{
+    color:#CCCCCC;
+    text-decoration: none;  
+}
