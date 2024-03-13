@@ -3,17 +3,19 @@ import "./Navbar.css";
 
 export default function Navbar(){
     return(
-        <div className="divFather">
+        <div className="divFatherNavbar">
             <div className="title">
                 <div className="lucas">Lucas Naufal</div>
-                <div className="portfolio">Portfolio</div>
+                <div className="portfolio">Portfolio</div> 
             </div>
             <div className="links">
                 <div className="icons">
-                    <a href="https://github.com/lcsnaufal" className="a">git</a>
+                    <a href="https://github.com/lcsnaufal">github</a>
                 </div>
                 <div className="icons">gmail</div>
-                <div className="icons">discord</div>
+                <div className="icons">
+                    <a href="">discord</a>
+                </div>
             </div>
         </div>
     )
