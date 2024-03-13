@@ -7,11 +7,13 @@
     -moz-user-select: none; /* Old versions of Firefox */
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none;
+    font-size: 25px;
 }
 
 .divPortfolioLink{
     padding-top: 45px;
 }
+
 
 
 .linkPortfolio{
@@ -20,6 +22,7 @@
     margin-left: 20px;
     text-decoration:none;
     position: relative;
+
 }
 
 .linkPortfolio:after{
@@ -33,6 +36,8 @@
     transition: 0.3s ease-in-out;
 }
 
+
 .linkPortfolio:hover:after{
     width: 100%;
+    background-color: #CCCCCC;
 }

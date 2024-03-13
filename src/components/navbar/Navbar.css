@@ -11,7 +11,7 @@
     -moz-user-select: none; /* Old versions of Firefox */
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none;
-    letter-spacing: 1px;
+    font-family: monospace;
 }
 
 .portfolio{
@@ -21,7 +21,7 @@
     -moz-user-select: none; /* Old versions of Firefox */
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none;
-    letter-spacing: 3px;
+    font-family: monospace;
 }
 
 .links{
@@ -33,13 +33,14 @@
     align-self: center;
 }
 
-a{
+.socialLinks{
     color:#CCCCCC;
+    font-size: large;
     text-decoration: none;
-    position:relative;  
+    position:relative;
 }
 
-a:after{
+.socialLinks:after{
     content: " ";
     width: 0%;
     height: 2px;
@@ -50,6 +51,12 @@ a:after{
     transition: 0.3s ease-in-out;
 }
 
-a:hover:after{
+.socialLinks:after{
+    color: #CCCCCC;
+    transition-duration: 0.3s;
+}
+
+.socialLinks:hover:after{
+    color: #CCCCCC;
     width: 100%;
 }

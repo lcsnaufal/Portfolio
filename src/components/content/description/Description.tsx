@@ -11,7 +11,9 @@ export default function Description(){
             Pretium lectus quam id leo in vitae turpis massa. Elementum sagittis vitae et leo duis ut diam.
             Orci nulla pellentesque dignissim enim sit amet. Ridiculus mus mauris vitae ultricies leo. Lectus
             proin nibh nisl condimentum id venenatis a condimentum vitae. Blandit cursus risus at ultrices mi
-            tempus imperdiet nulla malesuada.
+            tempus imperdiet nulla malesuada. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus. Tempor
+            orci dapibus ultrices in. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus. Tempor
+            orci dapibus ultrices in.
         </div>
     )
 }

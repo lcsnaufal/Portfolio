@@ -10,11 +10,13 @@ export default function Navbar(){
             </div>
             <div className="links">
                 <div className="icons">
-                    <a href="https://github.com/lcsnaufal">github</a>
+                    <a href="https://github.com/lcsnaufal" className="socialLinks">github</a>
                 </div>
-                <div className="icons">gmail</div>
                 <div className="icons">
-                    <a href="">discord</a>
+                    <a href="mailto:dev.naufall@gmail.com" className="socialLinks">gmail</a>
+                </div>
+                <div className="icons">
+                    <a href="https://discord.gg/4czbQFxJZF" className="socialLinks">discord</a>
                 </div>
             </div>
         </div>
