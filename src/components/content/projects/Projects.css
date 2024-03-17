@@ -11,7 +11,7 @@
 }
 
 .divPortfolioLink{
-    padding-top: 45px;
+    padding-top: 27px;
 }
 
 
@@ -40,4 +40,305 @@
 .linkPortfolio:hover:after{
     width: 100%;
     background-color: #CCCCCC;
+}
+
+@media (max-width:320px){
+    .projectDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        -webkit-user-select: none; /* Safari and Chrome */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none;
+        font-size: 22px;
+        margin-bottom: 70px;
+    }
+    
+    .projectCircle{
+        display:flex;
+    }
+
+    .circle{
+        margin-right: 7px;
+    }
+    
+    .divPortfolioLink{
+        margin-top: 0px;
+    }
+    
+    
+    
+    .linkPortfolio{
+        color: #CCCCCC;
+        font-size: 20px;
+        margin-left: 20px;
+        text-decoration:none;
+        position: relative;
+    
+    }
+    
+    .linkPortfolio:after{
+        content: " ";
+        width: 0%;
+        height: 2.5px;
+        background-color: #CCCCCC;
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        transition: 0.3s ease-in-out;
+    }
+    
+    
+    .linkPortfolio:hover:after{
+        width: 100%;
+        background-color: #CCCCCC;
+    }
+}
+
+@media (min-width:320px){
+    .projectDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        -webkit-user-select: none; /* Safari and Chrome */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none;
+        font-size: 22px;
+        margin-bottom: 70px;
+    }
+    
+    .projectCircle{
+        display:flex;
+    }
+
+    .circle{
+        margin-right: 7px;
+    }
+    
+    .divPortfolioLink{
+        margin-top: 0px;
+    }
+    
+    
+    
+    .linkPortfolio{
+        color: #CCCCCC;
+        font-size: 20px;
+        margin-left: 20px;
+        text-decoration:none;
+        position: relative;
+    
+    }
+    
+    .linkPortfolio:after{
+        content: " ";
+        width: 0%;
+        height: 2.5px;
+        background-color: #CCCCCC;
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        transition: 0.3s ease-in-out;
+    }
+    
+    
+    .linkPortfolio:hover:after{
+        width: 100%;
+        background-color: #CCCCCC;
+    }
+}
+
+@media (min-width:480px){
+    .projectDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        -webkit-user-select: none; /* Safari and Chrome */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none;
+        font-size: 30px;
+        margin-bottom: 75px;
+    }
+    
+    .divPortfolioLink{
+        margin-top: 0px;
+    }
+    
+    .linkPortfolio{
+        color: #CCCCCC;
+        font-size: 24px;
+        margin-left: 20px;
+        text-decoration:none;
+        position: relative;
+    
+    }
+    
+    .linkPortfolio:after{
+        content: " ";
+        width: 0%;
+        height: 2.5px;
+        background-color: #CCCCCC;
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        transition: 0.3s ease-in-out;
+    }
+    
+    
+    .linkPortfolio:hover:after{
+        width: 100%;
+        background-color: #CCCCCC;
+    }
+}
+
+@media (min-width:768px){
+    .projectDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        -webkit-user-select: none; /* Safari and Chrome */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none;
+        font-size: 38px;
+        margin-bottom: 75px;
+    }
+    
+    .divPortfolioLink{
+        margin-top: 8px;
+    }
+    
+    .linkPortfolio{
+        color: #CCCCCC;
+        font-size: 31px;
+        margin-left: 20px;
+        text-decoration:none;
+        position: relative;
+    
+    }
+    
+    .linkPortfolio:after{
+        content: " ";
+        width: 0%;
+        height: 2.5px;
+        background-color: #CCCCCC;
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        transition: 0.3s ease-in-out;
+    }
+    
+    
+    .linkPortfolio:hover:after{
+        width: 100%;
+        background-color: #CCCCCC;
+    }
+}
+
+@media (min-width:1024px){
+    .projectDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        -webkit-user-select: none; /* Safari and Chrome */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none;
+        font-size: 40px;
+        margin-bottom: 75px;
+    }
+    
+    .divPortfolioLink{
+        margin-top: 8px;
+    }
+    
+    .linkPortfolio{
+        color: #CCCCCC;
+        font-size: 35px;
+        margin-left: 20px;
+        text-decoration:none;
+        position: relative;
+    
+    }
+    
+    .linkPortfolio:after{
+        content: " ";
+        width: 0%;
+        height: 2.5px;
+        background-color: #CCCCCC;
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        transition: 0.3s ease-in-out;
+    }
+    
+    
+    .linkPortfolio:hover:after{
+        width: 100%;
+        background-color: #CCCCCC;
+    }
+}
+
+@media (min-width:1280px){
+    .projectDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        -webkit-user-select: none; /* Safari and Chrome */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none;
+        font-size: 26px;
+        margin-right: 120px;
+        margin-top: 45px;
+    }
+
+    .projectCircle{
+        display:flex;
+    }
+
+    .circle{
+        margin-right: 7px;
+    }
+    
+    .divPortfolioLink{
+        padding-top: 45px;
+    }
+    
+    
+    
+    .linkPortfolio{
+        color: #CCCCCC;
+        font-size: 20px;
+        margin-left: 20px;
+        text-decoration:none;
+        position: relative;
+    
+    }
+    
+    .linkPortfolio:after{
+        content: " ";
+        width: 0%;
+        height: 2.5px;
+        background-color: #CCCCCC;
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        transition: 0.3s ease-in-out;
+    }
+    
+    
+    .linkPortfolio:hover:after{
+        width: 100%;
+        background-color: #CCCCCC;
+    }
 }
