@@ -16,7 +16,7 @@ export default function Navbar(){
                         <a href="mailto:dev.naufall@gmail.com" className="socialLinks">email</a>
                     </div>
                     <div className="linksAllSecond">  
-                        <a href="https://discord.gg/4czbQFxJZF" className="socialLinks">discord</a>
+                        <a href="https://linkedin.com/in/lucasnaufal-queiroz9" className="socialLinks">linkedin</a>
                     </div>
             </div>
         </div>
